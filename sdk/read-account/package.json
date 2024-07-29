@@ -1,0 +1,15 @@
+{
+  "name": "vechain-sdk-read-account",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index.mjs",
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@vechain/sdk-network": "^1.0.0-beta.3",
+    "nodemon": "^3.1.0"
+  },
+  "stackblitz": {
+    "startCommand": "npm start"
+  }
+}
